@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    display: flex;
+    min-width: 1440px;
+    min-height: 900px;
+    background-color: E5E5E5;
+    
+}
+
+.navigation {
+
+    display: flex;
+    flex-direction: column ;
+    width: 350px;
+    height: 900px;
+    text-align: center;
+    padding-top: 175px;
+    
+}
+
+.navigation a {
+    display: flex;
+    align-items:  center;
+    text-align: left;
+    margin-left: 16px;
+    height: 70px;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 140%;
+    color:  #BBBBBB;
+}
+
+.navigation .active {
+    color: #1657FF ;
+    border-right: 4px solid #1657FF;
+}
+
+h1 {
+    color: #212121;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 140%;
+}
+
+h2 {
+    color: #BBBBBB;
+    margin-top: 4px;
+    margin-bottom: 51px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 140%;
+}
+
+.icon-about-me {
+    font-size: 25px;
+}
+
+
+
+
+main {
+display: flex;
+background-color: #E5E5E5;
+min-width: 1090px;
+
+}
+
+header {
+    display: flex;
+    min-width: 1050px;
+    height: 106px;
+    color: #3C3F88;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 140%;
+    margin-left: 10px;
+    margin-top: 48px;
+    
+}
+
+
+.section1 {
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.15);
+    margin-top: 130px;
+    background: white;
+    width: 1050px;
+    height: 900px;
+    position: absolute;
+    left: 374px;
+    right: 0;
+    border-radius: 12px;
+}
+
+textarea {
+    display: flex;
+    height: 240px;
+    margin: auto;
+    width: 427px;
+    resize: none;
+    margin-top: 150px;
+}
+
+button {
+    display: flex;
+    margin: auto;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.comment_box {
+    border: 1px solid black;
+    display: flex;
+    margin: 25px;
+    padding-left: 15px;
+
+}
+
+.comment_box p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+
+}
+
+.comments {
+    display: flex;
+    justify-content: center;
+}
